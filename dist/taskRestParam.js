@@ -6,3 +6,4 @@ function totalLength() {
     return str.join("").length;
 }
 console.log(totalLength("hi", "There"));
+console.log(totalLength("TypeScript", "is", "fun"));
