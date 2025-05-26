@@ -7,5 +7,5 @@ console.log(out);
 
 // one line version
 
-const square = (num: number): number => (num * num);
+const square = (num: number): number => num * num;
 console.log(square(5));

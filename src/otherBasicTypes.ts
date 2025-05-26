@@ -2,6 +2,6 @@
 
 let tShirtSize: null = null;
 
-//tShirtSize = "small"; This is not allowed in typescript but this is allowed in javascript
+// tShirtSize = "small"; This is not allowed in typescript but this is allowed in javascript
 
 console.log(tShirtSize);

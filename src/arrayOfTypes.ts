@@ -1,4 +1,4 @@
-let fruitArray: Array<string> = ["Mango", "Apple", "Banana", "Strawberry"];
+let fruitArray: string[] = ["Mango", "Apple", "Banana", "Strawberry"];
 
 let integerArrray: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
