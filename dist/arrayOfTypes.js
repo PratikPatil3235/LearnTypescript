@@ -1,13 +1,14 @@
-var fruitArray = ["Mango", "Apple", "Banana", "Strawberry"];
-var integerArrray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-var booleanArray = [true, false];
-var displayFruits = function (array) {
-    array.forEach(function (el) {
+"use strict";
+let fruitArray = ["Mango", "Apple", "Banana", "Strawberry"];
+let integerArrray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let booleanArray = [true, false];
+let displayFruits = (array) => {
+    array.forEach((el) => {
         console.log(el);
     });
 };
-var displaySumOfArray = function (array) {
-    var out = array.reduce(function (acc, el) { return (acc + el); }, 0);
+let displaySumOfArray = (array) => {
+    let out = array.reduce((acc, el) => (acc + el), 0);
     return out;
 };
 displayFruits(fruitArray);

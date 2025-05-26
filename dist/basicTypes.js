@@ -1,7 +1,8 @@
-var userName = "Pratik";
-var userAge = 24;
-var isMarried = false;
-function displayDetails(userName, userAge, isMarried) {
-    return "Name:".concat(userName, " is of Age ").concat(userAge, " having Status of ").concat(isMarried ? "Married" : "Not Married");
+"use strict";
+let userName = "Pratik";
+let userAge = 24;
+let isMarried = false;
+function displayDetail(userName, userAge, isMarried) {
+    return `Name:${userName} is of Age ${userAge} having Status of ${isMarried ? "Married" : "Not Married"}`;
 }
-console.log(displayDetails(userName, userAge, isMarried));
+console.log(displayDetail(userName, userAge, isMarried));

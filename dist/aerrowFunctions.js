@@ -1,8 +1,9 @@
-var multiply = function (num1, num2) {
+"use strict";
+const multiply = (num1, num2) => {
     return num1 * num2;
 };
-var out = multiply(2, 5);
+let out = multiply(2, 5);
 console.log(out);
 // one line version
-var square = function (num) { return (num * num); };
+const square = (num) => num * num;
 console.log(square(5));

@@ -1,10 +1,11 @@
-var user1 = {
+"use strict";
+let user1 = {
     name: "Shyam",
     age: 20,
     isMarried: 'Married'
 };
 console.log(user1);
-var admin1 = {
+let admin1 = {
     name: "Shyam",
     age: 20,
     isMarried: 'Married',

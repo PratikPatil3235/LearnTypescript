@@ -1,9 +1,10 @@
-var lenovoObject = {
+"use strict";
+let lenovoObject = {
     name: "Lenobo Ryzen 3",
     osType: "ideapad 3",
     id: 68473363868234837
 };
-var mobileSystemObj = {
+let mobileSystemObj = {
     name: "Asus",
     osType: "Android",
     id: 12345,

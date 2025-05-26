@@ -1,11 +1,12 @@
-var StudentObj = {
+"use strict";
+const StudentObj = {
     name: "Pratik",
     marks: [90, 98, 86],
-    calculateAverage: function () {
-        var total = this.marks.reduce(function (sum, mark) { return sum + mark; }, 0);
+    calculateAverage() {
+        const total = this.marks.reduce((sum, mark) => sum + mark, 0);
         return total / this.marks.length;
     },
-    getGrade: function (averageMarks) {
+    getGrade(averageMarks) {
         if (averageMarks >= 90 && averageMarks <= 100)
             return 'A';
         else if (averageMarks >= 80 && averageMarks < 90)
@@ -19,13 +20,13 @@ var StudentObj = {
         else
             return 'F';
     },
-    printStudentReport: function () {
-        var avg = this.calculateAverage();
-        var grade = this.getGrade(avg);
-        console.log("Name: ".concat(this.name));
-        console.log("Scores: ".concat(this.marks.join(", ")));
-        console.log("Average: ".concat(avg.toFixed(2)));
-        console.log("Grade: ".concat(grade));
+    printStudentReport() {
+        const avg = this.calculateAverage();
+        const grade = this.getGrade(avg);
+        console.log(`Name: ${this.name}`);
+        console.log(`Scores: ${this.marks.join(", ")}`);
+        console.log(`Average: ${avg.toFixed(2)}`);
+        console.log(`Grade: ${grade}`);
     }
 };
 StudentObj.printStudentReport();

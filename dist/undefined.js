@@ -1,2 +1,3 @@
-var val = undefined;
+"use strict";
+let val = undefined;
 console.log(val);

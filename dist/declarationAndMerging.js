@@ -1,4 +1,5 @@
-var dog = {
+"use strict";
+const dog = {
     name: "Sheru",
     age: 4
 };

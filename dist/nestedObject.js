@@ -1,4 +1,5 @@
-var personObj = {
+"use strict";
+let personObj = {
     name: "Pratik",
     age: 20,
     isMarried: false,
@@ -9,9 +10,9 @@ var personObj = {
     }
 };
 function displayPersonDetailsWithLocation(object) {
-    console.log("Name ".concat(object.name, ", Age: ").concat(object.age, ", Marriatel Status: ").concat(object.isMarried ? "Married" : "Not Married", ", Gender: ").concat(object.gender, "."));
+    console.log(`Name ${object.name}, Age: ${object.age}, Marriatel Status: ${object.isMarried ? "Married" : "Not Married"}, Gender: ${object.gender}.`);
     if (object.userLocation) {
-        console.log("city: ".concat(object.userLocation.city, " Pincode: ").concat(object.userLocation.pincode));
+        console.log(`city: ${object.userLocation.city} Pincode: ${object.userLocation.pincode}`);
     }
 }
 displayPersonDetailsWithLocation(personObj);

@@ -1,9 +1,7 @@
-var a = 10;
-var b = 20;
-var sumOfTwoNumbers = function (a, b) {
+"use strict";
+let a = 10;
+let b = 20;
+const sumOfTwoNumbers = (a, b) => {
     return a + b;
 };
-let output = sumOfTwoNumbers(a, b);
-
-let container = document.getElementById("container");
-container.textContent = `Output of This Pogram ${output}`;
+console.log(sumOfTwoNumbers(a, b));

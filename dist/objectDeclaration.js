@@ -1,10 +1,11 @@
-var personObject = {
+"use strict";
+let personObject = {
     name: "Pratik",
     age: 20,
     isMarried: false,
     gender: "male",
 };
 function displayPersonDetails(object) {
-    console.log("Name ".concat(object.name, ", Age: ").concat(object.age, ", Marriatel Status: ").concat(object.isMarried ? "Married" : "Not Married", ", Gender: ").concat(object.gender, "."));
+    console.log(`Name ${object.name}, Age: ${object.age}, Marriatel Status: ${object.isMarried ? "Married" : "Not Married"}, Gender: ${object.gender}.`);
 }
 displayPersonDetails(personObject);

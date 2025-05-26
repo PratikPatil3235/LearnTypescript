@@ -1,20 +1,19 @@
+"use strict";
 function greeting(name) {
-    return "hello ".concat(name);
+    return `hello ${name}`;
 }
 //console.log(greeting())  Not allowed
 console.log(greeting("Pratik"));
 function greetingUser(name) {
-    console.log("Hello ".concat(name));
+    console.log(`Hello ${name}`);
 }
 greetingUser("Shyam");
-function greetingUserWithDefaultParameter(name) {
-    if (name === void 0) { name = "Guest"; }
-    console.log("Hello ".concat(name));
+function greetingUserWithDefaultParameter(name = "Guest") {
+    console.log(`Hello ${name}`);
 }
 greetingUserWithDefaultParameter();
-function greetingWithOptionalParameter(name, age) {
-    if (name === void 0) { name = "Guest"; }
-    return age ? "welcome ".concat(name, ", age ").concat(age) : "Welcome ".concat(name);
+function greetingWithOptionalParameter(name = "Guest", age) {
+    return age ? `welcome ${name}, age ${age}` : `Welcome ${name}`;
 }
 console.log(greetingWithOptionalParameter());
 console.log(greetingWithOptionalParameter("Raj"));

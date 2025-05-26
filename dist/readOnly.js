@@ -1,4 +1,5 @@
-var mobile = {
+"use strict";
+let mobile = {
     name: "Iphone",
     id: 4738,
     purpose: "entairtenment"

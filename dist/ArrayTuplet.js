@@ -1,12 +1,13 @@
-var detailsArray = ["Pratik", 24];
+"use strict";
+let detailsArray = ["Pratik", 24];
 detailsArray.push("sanjana", 25);
 console.log(detailsArray);
-var person = {
+let person = {
     name: "Shyam",
     age: 23
 };
-var array = [person];
-var person1 = {
+let array = [person];
+let person1 = {
     name: "Raj",
     age: 24
 };

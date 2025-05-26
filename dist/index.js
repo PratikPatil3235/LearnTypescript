@@ -1,4 +1,5 @@
-var greet = function (name) {
-    return "Hello, ".concat(name);
+"use strict";
+const greet = (name) => {
+    return `Hello, ${name}`;
 };
 console.log(greet("TypeScript"));
