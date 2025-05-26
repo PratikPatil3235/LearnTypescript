@@ -1,0 +1,3 @@
+1) If we declare any veriable of perticular type we can only re-initialize that veriable with only that perticular type and not with any other type
+2)only type any can be used to re-initialize to any value but not re-commended
+3)In a  single project with typescript we can only declare any veriable only once and not many times
