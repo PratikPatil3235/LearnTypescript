@@ -1,8 +1,4 @@
 let detailsArray: [string, number] = ["Pratik", 24];
-
-
-detailsArray.push("sanjana", 25);
-
 console.log(detailsArray);
 
 interface Details{
