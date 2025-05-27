@@ -18,3 +18,17 @@ Use with primitives	        ❌ Not allowed	                        ✅ Allowed 
 Readability in tooling	    ✅ Better in IDEs/auto-docs	            👍 Still good
 
 Preferred when	            Creating reusable object contracts	      Combining types, primitives, unions, tuples
+
+
+
+Implecite vs explicite typing 
+
+Implecite
+
+let name = "Alice"; // inferred as string
+let age = 30;       // inferred as number
+
+Explicite
+
+let name: string = "Alice";
+let age: number = 30;
