@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const savingsAccount_1 = require("./savingsAccount");
+const myAccount = new savingsAccount_1.SavingsAccount(5000);
+console.log(myAccount.calculateInterest());
+console.log(myAccount.getAccountNumber());
+console.log(myAccount.deposite(1000));
+console.log(myAccount.getBalance());
+console.log(myAccount.getCreationDate());
+console.log(myAccount.getIntrestRate());

@@ -1,0 +1,17 @@
+📝 Challenge Task
+🔧 Task: Create a class system for an Account base class, with SavingsAccount and CurrentAccount subclasses.
+
+Requirements:
+Use private for balance.
+
+Use protected for account number.
+
+Use readonly for account creation date.
+
+Add deposit, withdraw, and getBalance methods.
+
+Add static bankName.
+
+Add an abstract method calculateInterest() in base class.
+
+Use getters/setters where appropriate.

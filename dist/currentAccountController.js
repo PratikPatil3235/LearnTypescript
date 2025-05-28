@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const currentAccount_1 = require("./currentAccount");
+const myAccount = new currentAccount_1.CurrentAccount(5000);
+console.log(myAccount.calculateInterest());
+console.log(myAccount.getAccountNumber());
+console.log(myAccount.deposite(1000));
+console.log(myAccount.getBalance());
+console.log(myAccount.getCreationDate());
+console.log(myAccount.getIntrestRate());
