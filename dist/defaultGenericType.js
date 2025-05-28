@@ -4,6 +4,6 @@ const defaultType = {
 };
 console.log(defaultType.data);
 const customeType = {
-    data: 10
+    data: 10,
 };
 console.log(customeType.data);

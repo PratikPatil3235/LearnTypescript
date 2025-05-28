@@ -1,7 +1,7 @@
 enum Role {
   Admin = "admin",
   User = "user",
-  Guest = "guest"
+  Guest = "guest",
 }
 
 function getAccess(role: Role) {

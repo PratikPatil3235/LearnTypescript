@@ -1,21 +1,21 @@
 type Dog = {
-    bark: () => void
+  bark: () => void;
 };
 
 type Cat = {
-    meow:()=>void
-}
+  meow: () => void;
+};
 
-function makeSound(voice: Dog | Cat):void {
-    if ("bark" in voice) {
-        voice.bark();
-    } else {
-        voice.meow();
-    }
+function makeSound(voice: Dog | Cat): void {
+  if ("bark" in voice) {
+    voice.bark();
+  } else {
+    voice.meow();
+  }
 }
 const cat: Cat = {
-    meow: () => {
-        console.log("meow")
-    }
-}
+  meow: () => {
+    console.log("meow");
+  },
+};
 makeSound(cat);

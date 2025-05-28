@@ -1,7 +1,7 @@
 type UserData = { name: string; age: number };
-type PartialUser = Partial<UserData>; 
+type PartialUser = Partial<UserData>;
 
 const userData: PartialUser = {
-    name: "jarvis"
-}
+  name: "jarvis",
+};
 console.log(userData);

@@ -10,8 +10,10 @@ const myPromise = new Promise((res, rej) => {
         }
     }, 2000);
 });
-myPromise.then((data) => {
+myPromise
+    .then((data) => {
     console.log(data);
-}).catch((err) => {
+})
+    .catch((err) => {
     console.log(err);
 });

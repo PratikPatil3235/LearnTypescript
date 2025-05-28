@@ -1,8 +1,8 @@
-const id="container"
+const id = "container";
 function getElement(id: string) {
-  const el = document.getElementById(id)!; 
-    el.innerHTML = "Updated!";
-    console.log("done");
+  const el = document.getElementById(id)!;
+  el.innerHTML = "Updated!";
+  console.log("done");
 }
 
 getElement(id);

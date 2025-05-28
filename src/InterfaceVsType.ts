@@ -3,25 +3,25 @@ type PersonName = string;
 const myName: PersonName = "Pratik";
 console.log(myName);
 
-interface Animals{
-    name: string;
-    gender: string;
+interface Animals {
+  name: string;
+  gender: string;
 }
-const maskot:Animals={
-    name: "sheru",
-    gender: "male",
-    sound:"bark"
-}
+const maskot: Animals = {
+  name: "sheru",
+  gender: "male",
+  sound: "bark",
+};
 console.log(maskot);
 
-interface Animals{
-    sound:string
+interface Animals {
+  sound: string;
 }
 
 type LastName = string;
 
-type NewName = PersonName & LastName
+type NewName = PersonName & LastName;
 
-const newName: NewName = "Pratik Patil"; 
+const newName: NewName = "Pratik Patil";
 
 console.log(newName);

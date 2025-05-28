@@ -8,17 +8,17 @@ const StudentObj = {
     },
     getGrade(averageMarks) {
         if (averageMarks >= 90 && averageMarks <= 100)
-            return 'A';
+            return "A";
         else if (averageMarks >= 80 && averageMarks < 90)
-            return 'B';
+            return "B";
         else if (averageMarks >= 70 && averageMarks < 80)
-            return 'C';
+            return "C";
         else if (averageMarks >= 60 && averageMarks < 70)
-            return 'D';
+            return "D";
         else if (averageMarks >= 35 && averageMarks < 60)
-            return 'E';
+            return "E";
         else
-            return 'F';
+            return "F";
     },
     printStudentReport() {
         const avg = this.calculateAverage();
@@ -27,6 +27,6 @@ const StudentObj = {
         console.log(`Scores: ${this.marks.join(", ")}`);
         console.log(`Average: ${avg.toFixed(2)}`);
         console.log(`Grade: ${grade}`);
-    }
+    },
 };
 StudentObj.printStudentReport();

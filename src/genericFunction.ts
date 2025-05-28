@@ -1,5 +1,5 @@
 function displayId<T>(value: T): T {
-    return value;
+  return value;
 }
 
 const numberVal = displayId(10);

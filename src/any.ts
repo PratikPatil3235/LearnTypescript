@@ -6,5 +6,4 @@ value = true;
 
 value = {};
 
-
 console.log(value);

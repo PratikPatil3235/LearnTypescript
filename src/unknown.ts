@@ -1,10 +1,9 @@
-let something: unknown=true;
+let something: unknown = true;
 
-something="namingConvention";
+something = "namingConvention";
 
-something= 30;
+something = 30;
 
-if (typeof (something) === "number")
-{
-    console.log(something);
+if (typeof something === "number") {
+  console.log(something);
 }

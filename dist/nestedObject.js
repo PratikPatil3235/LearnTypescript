@@ -6,8 +6,8 @@ let personObj = {
     gender: "male",
     userLocation: {
         city: "Pune",
-        pincode: 416312
-    }
+        pincode: 416312,
+    },
 };
 function displayPersonDetailsWithLocation(object) {
     console.log(`Name ${object.name}, Age: ${object.age}, Marriatel Status: ${object.isMarried ? "Married" : "Not Married"}, Gender: ${object.gender}.`);

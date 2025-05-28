@@ -2,7 +2,7 @@
 let mobile = {
     name: "Iphone",
     id: 4738,
-    purpose: "entairtenment"
+    purpose: "entairtenment",
 };
 mobile.name = "asus";
 // mobile.id = 12643; not possible only for reading purpose

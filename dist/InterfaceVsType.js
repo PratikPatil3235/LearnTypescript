@@ -5,7 +5,7 @@ console.log(myName);
 const maskot = {
     name: "sheru",
     gender: "male",
-    sound: "bark"
+    sound: "bark",
 };
 console.log(maskot);
 const newName = "Pratik Patil";

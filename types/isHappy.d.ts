@@ -1,2 +1,2 @@
-declare function isHappy(num: number): boolean
-export { isHappy }
+declare function isHappy(num: number): boolean;
+export { isHappy };

@@ -18,6 +18,6 @@ class Thing {
     this._size = num;
   }
 }
-let newThing=new Thing()
-newThing.setSize=30;
+let newThing = new Thing();
+newThing.setSize = 30;
 console.log(newThing._size);

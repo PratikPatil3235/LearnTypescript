@@ -1,4 +1,3 @@
-
 type EventName = "user:created" | "user:deleted" | "order:placed";
 
 type EventPayloads = {
@@ -7,9 +6,9 @@ type EventPayloads = {
   "order:placed": { orderId: string; total: number };
 };
 
-
-type EventPayload<T extends EventName> =
-  T extends keyof EventPayloads ? EventPayloads[T] : never;
+type EventPayload<T extends EventName> = T extends keyof EventPayloads
+  ? EventPayloads[T]
+  : never;
 
 function handleEvent<T extends EventName>(event: T, payload: EventPayload<T>) {
   console.log(`Handling event: ${event}`);

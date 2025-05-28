@@ -4,4 +4,4 @@ function getLengthConstarain(item) {
 }
 console.log(getLengthConstarain("hello"));
 console.log(getLengthConstarain([1, 2, 3]));
-// console.log(getLength(123)); 
+// console.log(getLength(123));

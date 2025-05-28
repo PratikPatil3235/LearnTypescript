@@ -1,6 +1,6 @@
 "use strict";
 const userTypes = {
     id: 3437473,
-    name: "pratik"
+    name: "pratik",
 };
 console.log(userTypes);

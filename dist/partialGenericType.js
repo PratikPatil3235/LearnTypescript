@@ -1,5 +1,5 @@
 "use strict";
 const userData = {
-    name: "jarvis"
+    name: "jarvis",
 };
 console.log(userData);

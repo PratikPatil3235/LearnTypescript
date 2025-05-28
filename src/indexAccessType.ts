@@ -1,7 +1,7 @@
 type userProfile = {
-    name: string;
-    age: number;
-}
+  name: string;
+  age: number;
+};
 
 type AgeType = userProfile["age"];
 

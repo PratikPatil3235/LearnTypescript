@@ -4,4 +4,4 @@ namespace MathUtils {
   }
 }
 
-console.log(MathUtils.multiply(3,4)); 
+console.log(MathUtils.multiply(3, 4));

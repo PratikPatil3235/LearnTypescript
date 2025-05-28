@@ -1,13 +1,11 @@
+function outer(): () => number {
+  let num1: number = 10;
+  function inner(): number {
+    let num2: number = 20;
+    return num1 + num2;
+  }
 
-function outer(): ()=>number {
-    let num1:number = 10;
-    function inner():number
-    {
-        let num2: number = 20;
-        return num1 + num2;
-    }
-
-    return inner;
+  return inner;
 }
 
 let output = outer();

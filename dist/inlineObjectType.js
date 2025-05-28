@@ -4,8 +4,8 @@ const user = {
     age: 24,
     location: {
         city: "sangli",
-        pin: 416312
-    }
+        pin: 416312,
+    },
 };
 console.log(user.name);
 console.log(user.age);

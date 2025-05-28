@@ -10,6 +10,6 @@ function makeSound(voice) {
 const cat = {
     meow: () => {
         console.log("meow");
-    }
+    },
 };
 makeSound(cat);

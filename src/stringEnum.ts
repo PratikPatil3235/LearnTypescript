@@ -1,8 +1,8 @@
-enum LogLevel{
-    error = "ERROR",
-    debug = "DEBUG",
-    warn = "WARN",
-    info = "INFO"
+enum LogLevel {
+  error = "ERROR",
+  debug = "DEBUG",
+  warn = "WARN",
+  info = "INFO",
 }
 
 let details: LogLevel = LogLevel.info;

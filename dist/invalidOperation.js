@@ -1,13 +1,12 @@
 "use strict";
 function addTen(input) {
-    if (typeof (input) == "number") {
+    if (typeof input == "number") {
         return input + 10;
     }
 }
-;
 console.log(addTen(20));
 function getLength(value) {
-    if (typeof (value) == "string") {
+    if (typeof value == "string") {
         return value.length;
     }
     else {

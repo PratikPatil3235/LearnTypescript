@@ -1,6 +1,6 @@
-enum Mixed{
-    number ,
-    string="StringEnum"
-};
+enum Mixed {
+  number,
+  string = "StringEnum",
+}
 let en: Mixed = Mixed.number;
-console.log(typeof(en));
+console.log(typeof en);
