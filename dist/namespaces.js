@@ -1,3 +1,4 @@
+"use strict";
 var MathUtils;
 (function (MathUtils) {
     function multiply(a, b) {

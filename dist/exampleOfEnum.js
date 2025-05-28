@@ -1,3 +1,4 @@
+"use strict";
 var Role;
 (function (Role) {
     Role["Admin"] = "admin";
@@ -10,5 +11,5 @@ function getAccess(role) {
     }
     return "Limited Access";
 }
-var userRole = Role.Guest;
+const userRole = Role.Guest;
 console.log(getAccess(userRole));

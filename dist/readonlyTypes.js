@@ -1,4 +1,5 @@
-var stringType = {
+"use strict";
+const stringType = {
     name: "string",
     used: "to store group of characters"
 };

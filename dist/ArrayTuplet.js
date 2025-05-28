@@ -1,6 +1,5 @@
 "use strict";
 let detailsArray = ["Pratik", 24];
-detailsArray.push("sanjana", 25);
 console.log(detailsArray);
 let person = {
     name: "Shyam",

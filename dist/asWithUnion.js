@@ -1,3 +1,4 @@
-var data = "hello";
-var strLength = data.length;
+"use strict";
+let data = "hello";
+let strLength = data.length;
 console.table(strLength);

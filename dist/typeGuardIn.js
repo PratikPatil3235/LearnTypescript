@@ -1,3 +1,4 @@
+"use strict";
 function makeSound(voice) {
     if ("bark" in voice) {
         voice.bark();
@@ -6,8 +7,8 @@ function makeSound(voice) {
         voice.meow();
     }
 }
-var cat = {
-    meow: function () {
+const cat = {
+    meow: () => {
         console.log("meow");
     }
 };

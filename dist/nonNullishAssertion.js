@@ -1,6 +1,7 @@
-var id = "container";
+"use strict";
+const id = "container";
 function getElement(id) {
-    var el = document.getElementById(id);
+    const el = document.getElementById(id);
     el.innerHTML = "Updated!";
     console.log("done");
 }

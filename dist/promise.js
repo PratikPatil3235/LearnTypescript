@@ -1,6 +1,7 @@
-var myPromise = new Promise(function (res, rej) {
-    setTimeout(function () {
-        var success = true;
+"use strict";
+const myPromise = new Promise((res, rej) => {
+    setTimeout(() => {
+        let success = true;
         if (success) {
             res("Resolved");
         }
@@ -9,8 +10,8 @@ var myPromise = new Promise(function (res, rej) {
         }
     }, 2000);
 });
-myPromise.then(function (data) {
+myPromise.then((data) => {
     console.log(data);
-}).catch(function (err) {
+}).catch((err) => {
     console.log(err);
 });

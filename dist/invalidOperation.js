@@ -1,3 +1,4 @@
+"use strict";
 function addTen(input) {
     if (typeof (input) == "number") {
         return input + 10;

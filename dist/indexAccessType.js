@@ -1,2 +1,3 @@
-var age = 48;
+"use strict";
+const age = 48;
 console.log(age);

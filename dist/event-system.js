@@ -1,5 +1,6 @@
+"use strict";
 function handleEvent(event, payload) {
-    console.log("Handling event: ".concat(event));
+    console.log(`Handling event: ${event}`);
     console.log("Payload:", payload);
 }
 handleEvent("user:created", { id: 1, name: "Alice" });

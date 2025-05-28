@@ -1,11 +1,12 @@
+"use strict";
 //Premetive typing allowed
-var myName = "Pratik";
+const myName = "Pratik";
 console.log(myName);
-var maskot = {
+const maskot = {
     name: "sheru",
     gender: "male",
     sound: "bark"
 };
 console.log(maskot);
-var newName = "Pratik Patil";
+const newName = "Pratik Patil";
 console.log(newName);

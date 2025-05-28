@@ -1,3 +1,4 @@
+"use strict";
 var Direction;
 (function (Direction) {
     Direction[Direction["up"] = 0] = "up";
@@ -5,5 +6,5 @@ var Direction;
     Direction[Direction["left"] = 2] = "left";
     Direction[Direction["right"] = 3] = "right";
 })(Direction || (Direction = {}));
-var move = Direction.left;
+let move = Direction.left;
 console.log(move);

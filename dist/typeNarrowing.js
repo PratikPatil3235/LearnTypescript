@@ -1,3 +1,4 @@
+"use strict";
 function accept(value) {
     if (typeof (value) == "string") {
         console.log(value.toUpperCase());

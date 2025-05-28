@@ -1,7 +1,8 @@
-var numberBox = {
+"use strict";
+const numberBox = {
     value: 10
 };
-var stringBox = {
+const stringBox = {
     value: "stringBox"
 };
 console.log(numberBox.value);

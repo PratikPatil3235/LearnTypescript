@@ -1,4 +1,5 @@
+"use strict";
 // let values = "hello" as string;
-var values = "hello world";
-var len = values.length;
+let values = "hello world";
+let len = values.length;
 console.log(len);

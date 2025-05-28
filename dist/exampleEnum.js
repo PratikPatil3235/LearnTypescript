@@ -1,4 +1,5 @@
-var example = function () {
+"use strict";
+const example = () => {
     return 5;
 };
 var Values;
@@ -8,5 +9,5 @@ var Values;
     Values[Values["c"] = 8] = "c";
 })(Values || (Values = {}));
 ;
-var numen = Values.a;
+const numen = Values.a;
 console.log(numen);

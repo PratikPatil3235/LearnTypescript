@@ -1,6 +1,7 @@
+"use strict";
 function displayId(value) {
     return value;
 }
-var numberVal = displayId(10);
-console.log(displayId("ruiescbdcskvbdf"));
+const numberVal = displayId(10);
+console.log(displayId("ruiens"));
 console.log(numberVal);

@@ -1,3 +1,4 @@
+"use strict";
 // typeof
 function checkTypeOf(str) {
     if (typeof (str) == "string") {
