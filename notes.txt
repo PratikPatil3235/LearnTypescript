@@ -32,3 +32,8 @@ Explicite
 
 let name: string = "Alice";
 let age: number = 30;
+
+
+commands we must know 
+npm install lodash                                           install in dependencies
+npm install --save-dev @types/lodash                         install and saved in dev dependencies  
