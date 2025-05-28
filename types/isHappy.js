@@ -16,4 +16,4 @@ function isHappy(num) {
         }
     }
 }
-export { isHappy };
+module.exports = { isHappy };
