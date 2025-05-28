@@ -1,0 +1,41 @@
+📝 Task: Build a simple Library System
+You will create a class hierarchy with Book as base and EBook as a derived class. You will practice access modifiers, inheritance, static properties, and getters/setters.
+
+Task Description
+Create a Book class with:
+
+private properties: title (string), author (string)
+
+protected property: price (number)
+
+public readonly property: isbn (string)
+
+static property: libraryName (string) — same for all books
+
+constructor to initialize the above properties
+
+a public method getDetails() that returns a string combining title, author, price, and isbn.
+
+getters and setters for price (setter should only allow positive numbers, otherwise throw an error)
+
+Create a subclass EBook that extends Book:
+
+additional private property: fileSizeMB (number)
+
+constructor should initialize all properties including parent class
+
+override getDetails() method to add file size information
+
+add a public method download() that returns a string "Downloading [title]"
+
+Test your classes by:
+
+Creating at least one Book and one EBook instance
+
+Try accessing private and protected properties from outside and inside the class to see what works and what throws errors
+
+Use getters and setters for the price
+
+Log the results of getDetails() and download() for the EBook
+
+Access the static property libraryName without creating an instance
