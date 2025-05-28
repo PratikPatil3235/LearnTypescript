@@ -1,6 +1,5 @@
 import { CurrentAccount } from "./currentAccount";
 
-
 const myAccount = new CurrentAccount(5000);
 console.log(myAccount.calculateInterest());
 console.log(myAccount.getAccountNumber());
